@@ -20,7 +20,7 @@ public class Absence  implements Serializable {
     @Id
     @Column(name ="idAbsence ")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long idAbsence ;
+    private Long idAbsence;
 
     @Temporal (TemporalType.DATE)
     private Date dateDebut;
